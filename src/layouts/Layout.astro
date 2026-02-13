@@ -1,9 +1,33 @@
 ---
-layout: default
-title: "Gregori Evangelista Jimenez"
+import Navbar from "../components/commons/navbar/navbar.astro";
+import Footer from "../components/commons/footer/footer.astro";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+}
+
+const { title = "Gregori Evangelista Jimenez - Portfolio", description = "Portafolio de Gregori Evangelista Jimenez - Desarrollador Full Stack", noindex = false } = Astro.props;
 ---
 
-<main>
-    <h1>Welcome to my portfolio!</h1>
-    <p>Some introductory content...</p>
-</main>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <title>{title}</title>
+  </head>
+  <body class="bg-gray-950 text-white">
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
