@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="powerbi-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F2C811;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E97E00;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#powerbi-gradient)" d="M35.313 128c-3.375 0-6.125-2.75-6.125-6.125V51.188c0-3.375 2.75-6.125 6.125-6.125s6.125 2.75 6.125 6.125v70.688c0 3.374-2.75 6.124-6.125 6.124z"/>
+  <path fill="url(#powerbi-gradient)" d="M57.094 128c-3.375 0-6.125-2.75-6.125-6.125V28.719c0-3.375 2.75-6.125 6.125-6.125s6.125 2.75 6.125 6.125v93.156c0 3.374-2.75 6.124-6.125 6.124z"/>
+  <path fill="url(#powerbi-gradient)" d="M78.875 128c-3.375 0-6.125-2.75-6.125-6.125V6.125C72.75 2.75 75.5 0 78.875 0s6.125 2.75 6.125 6.125v115.75c0 3.374-2.75 6.124-6.125 6.124z"/>
+  <path fill="url(#powerbi-gradient)" d="M100.656 128c-3.375 0-6.125-2.75-6.125-6.125V41.219c0-3.375 2.75-6.125 6.125-6.125s6.125 2.75 6.125 6.125v80.656c0 3.374-2.75 6.124-6.125 6.124z"/>
+</svg>
