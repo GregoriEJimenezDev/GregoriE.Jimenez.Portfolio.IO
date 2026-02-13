@@ -9,7 +9,7 @@ export const proyectos = [
     imagen: VintageTone.src,
     tecnologias: ["Vue.js", "Tailwind", "Express", "MongoDB"],
     demo: "https://vintage-tone-front-vue.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/VintageTone-Front-Vue.git",
+    codigo: "https://github.com/grego78887/VintageTone-Front-Vue.git",
     categoria: "fullstack",
   },
   {
@@ -17,7 +17,7 @@ export const proyectos = [
     imagen: ReactEcommerce.src,
     tecnologias: ["React", "Tailwind", "Node.js" ,"Express", "MongoDB", "jwt"],
     demo: "https://react-e-commerce-three-phi.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    codigo: "https://github.com/grego78887/React-E-commerce.git",
   },
   {
     titulo: "E-commerce Urban Style",
@@ -25,13 +25,13 @@ export const proyectos = [
     imagen: urbanStyle.src,
     tecnologias: ["React", "Tailwind", "Firebase"],
     demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
+    codigo: "https://github.com/grego78887/ProyectoFinal-Rodriguez.git",
   },
   {
     titulo: "API REST para Ecommerce",
     imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
     tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
     demo: "https://react-e-commerce-three-phi.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    codigo: "https://github.com/grego78887/ApiRest-Ecommerce.git",
   },
 ];
