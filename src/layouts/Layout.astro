@@ -1,9 +1,29 @@
 ---
-layout: default
-title: "Gregori Evangelista Jimenez"
+import Navbar from "../components/commons/navbar/navbar.astro";
+import Footer from "../components/commons/footer/footer.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = "Gregori Evangelista Jimenez", description = "Portfolio de Gregori Evangelista Jimenez - Desarrollador .NET Full Stack" } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
-<main>
-    <h1>Welcome to my portfolio!</h1>
-    <p>Some introductory content...</p>
-</main>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href={`${baseUrl}/favicon.svg`} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="bg-gray-950">
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
+</html>

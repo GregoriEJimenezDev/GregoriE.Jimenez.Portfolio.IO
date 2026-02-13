@@ -1,18 +1,12 @@
 ---
 const technologies = [
-  "astro",
-  "react",
-  "typeScript",
-  "tailwindcss",
-  "nodejs",
-  "HTML5",
-  "CSS3",
-  "javaScript",
-  "git",
-  "supabase",
-  "mysql",
-  "bash",
+  { id: "csharp", name: "C#" },
+  { id: "dotnet", name: ".NET" },
+  { id: "sqlserver", name: "SQL Server" },
+  { id: "powerbi", name: "Power BI" },
 ];
+
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <div class="relative overflow-x-hidden px-8 py-8">
@@ -21,15 +15,15 @@ const technologies = [
       technologies.concat(technologies, technologies).map((tech) => (
         <div class="group flex items-center gap-2 transition-all duration-300">
           <img
-            src={`/svg/${tech}.svg`}
-            alt={tech}
+            src={`${baseUrl}/svg/${tech.id}.svg`}
+            alt={tech.name}
             class="h-7 w-auto object-contain  transition-transform group-hover:scale-110"
             width="30"
             height="30"
             loading="lazy"
           />
           <span class="text-lg font-medium text-white">
-            {tech.charAt(0).toUpperCase() + tech.slice(1)}
+            {tech.name}
           </span>
         </div>
       ))
