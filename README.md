@@ -59,6 +59,21 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 ---
+
+## 📸 Personalización
+
+### Cambiar tu foto de perfil
+
+Para cambiar la foto de perfil que aparece en el portafolio, consulta la guía detallada:
+
+👉 **[COMO_CAMBIAR_FOTO.md](./COMO_CAMBIAR_FOTO.md)**
+
+La foto actual se encuentra en `src/assets/img/MiFoto.png` y aparece en:
+- Página de inicio
+- Página "Sobre Mí"  
+- Página de contacto
+
+---
 ![Portfolio](https://github.com/user-attachments/assets/8c01d06f-2d36-46c1-a3ff-a6f7bf73ab67)
 
 
