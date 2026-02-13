@@ -10,7 +10,7 @@ export default defineConfig({
   base: '/GregoriE.Jimenez.Portfolio.IO',
   
   vite: {
-    plugins: [tailwindcss()],
+    Plugin: [tailwindcss()],
   },
 
   integrations: [react()],
