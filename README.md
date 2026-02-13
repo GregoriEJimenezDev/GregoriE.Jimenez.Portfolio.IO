@@ -70,7 +70,7 @@ Para cambiar la foto de perfil que aparece en el portafolio, consulta la guía d
 
 La foto actual se encuentra en `src/assets/img/MiFoto.png` y aparece en:
 - Página de inicio
-- Página "Sobre Mí"  
+- Página "Sobre Mí"
 - Página de contacto
 
 ---
