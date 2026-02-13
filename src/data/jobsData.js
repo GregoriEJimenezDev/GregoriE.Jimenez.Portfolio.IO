@@ -11,7 +11,7 @@ export const jobs = [
   },
   {
     title: "Frontend Developer - Vegna",
-    time: ["05/2024 - 02/2024"],
+    time: ["02/2024 - 05/2024"],
     description: "Desarrollo y mantenimiento de interfaces de usuario con:",
     list: ["JavaScript - TypeScript", "React - Next.js", "Tailwind", "Shadcn"],
   },
