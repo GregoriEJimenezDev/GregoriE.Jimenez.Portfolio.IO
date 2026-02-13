@@ -17,7 +17,7 @@ const SocialIcons = () => {
       </a>
 
       <a
-        href="https://github.com/grego78887"
+        href="https://github.com/GregoriEJimenezDev"
         target="_blank"
         rel="noopener noreferrer"
         className="mx-3 text-zinc-400 hover:text-[#69c7c7] drop-shadow-[1px_1px_0_#7836cf]"
